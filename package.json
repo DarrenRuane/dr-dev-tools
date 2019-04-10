@@ -1,8 +1,10 @@
 {
-    "name": "com.drdev.dr-dev-tools",
-    "displayName": "DR Dev Tools",
-    "version": "1.0.0",
-    "unity": "2018.3",
-	"license": "MIT",
-    "description": "A collection of modular, reusable scripts and extensions which make Unity development more seamless!"
+"name": "com.drdev.dr-dev-tools",
+"displayName": "DR Dev Tools",
+"description": "A collection of modular, reusable scripts and extensions which make Unity development more seamless!",
+"version": "1.0.0",
+"unity": "2018.3",
+"license": "MIT",
+"dependencies": {
+}
 }
