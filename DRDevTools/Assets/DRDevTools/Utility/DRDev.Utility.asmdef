@@ -1,0 +1,14 @@
+{
+    "name": "DRDev.Utility",
+    "references": [
+        "DRDev.Variables"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
