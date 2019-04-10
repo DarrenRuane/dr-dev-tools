@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using DRDevTools.Variables;
+using DRDevTools.TypeAdapters.Variables;
 
 namespace DRDevTools.Utility
 {
@@ -10,6 +10,12 @@ namespace DRDevTools.Utility
     /// </summary>
     public class AnimatorParameterSetter : MonoBehaviour
     {
+        /// <summary>
+        /// Animator Hash of ParameterName, automatically generated.
+        /// </summary>
+        [SerializeField]
+        private int parameterHash;
+
         [Tooltip("Variable to read from and send to the Animator as the specified parameter.")]
         public FloatVariable Variable;
 
@@ -18,13 +24,7 @@ namespace DRDevTools.Utility
 
         [Tooltip("Name of the parameter to set with the value of Variable.")]
         public string ParameterName;
-
-        /// <summary>
-        /// Animator Hash of ParameterName, automatically generated.
-        /// </summary>
-        [SerializeField]
-        private int parameterHash;
-
+        
         private void OnValidate() => parameterHash = Animator.StringToHash(ParameterName);
 
         private void Update() => Animator.SetFloat(parameterHash, Variable.Value);

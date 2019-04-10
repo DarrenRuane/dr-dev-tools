@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Audio;
-using DRDevTools.Variables;
+using DRDevTools.TypeAdapters.Variables;
+using DRDevTools.TypeAdapters.References;
 
 namespace DRDevTools.Utility
 {

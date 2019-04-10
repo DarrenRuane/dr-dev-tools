@@ -1,5 +1,5 @@
 ﻿using UnityEditor;
-using DRDevTools.Variables;
+using DRDevTools.TypeAdapters.References;
 
 namespace DRDevTools.Editor.Variables
 {

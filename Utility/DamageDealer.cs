@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using DRDevTools.Variables;
+using DRDevTools.TypeAdapters.References;
 
 namespace DRDevTools.Utility
 {

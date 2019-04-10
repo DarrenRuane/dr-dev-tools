@@ -1,7 +1,7 @@
 {
     "name": "DRDev.Events",
     "references": [
-        "DRDev.Variables"
+        "DRDev.TypeAdapters"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],

@@ -1,8 +1,6 @@
 {
-    "name": "DRDev.Utility",
-    "references": [
-        "DRDev.TypeAdapters"
-    ],
+    "name": "DRDev.TypeAdapters",
+    "references": [],
     "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],

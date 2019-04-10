@@ -1,7 +1,8 @@
 {
     "name": "DRDev.Editor",
     "references": [
-        "DRDev.Variables",
+        "DRDev.Events",
+        "DRDev.TypeAdapters",
         "DRDev.Utility"
     ],
     "optionalUnityReferences": [],
