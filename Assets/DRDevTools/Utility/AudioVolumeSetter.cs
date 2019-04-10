@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Audio;
-using DRDevTools.Variables;
+using DRDevTools.TypeAdapters.Variables;
 
 namespace DRDevTools.Utility
 {

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using DRDevTools.Variables;
+using DRDevTools.TypeAdapters.Variables;
+using DRDevTools.TypeAdapters.References;
 
 namespace DRDevTools.Utility
 {
